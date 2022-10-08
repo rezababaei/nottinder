@@ -11,6 +11,13 @@
 		F59C6ECC28F131AF000B088D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59C6ECB28F131AF000B088D /* ContentView.swift */; };
 		F59C6ECE28F131B1000B088D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59C6ECD28F131B1000B088D /* Assets.xcassets */; };
 		F59C6ED128F131B1000B088D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59C6ED028F131B1000B088D /* Preview Assets.xcassets */; };
+		F59C6ED828F13C3F000B088D /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59C6ED728F13C3F000B088D /* SignInView.swift */; };
+		F59C6EDA28F1404E000B088D /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59C6ED928F1404E000B088D /* CreateAccountView.swift */; };
+		F59C6EDD28F14A51000B088D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59C6EDC28F14A51000B088D /* ProfileView.swift */; };
+		F59C6EDF28F14A8B000B088D /* MatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59C6EDE28F14A8B000B088D /* MatchView.swift */; };
+		F59C6EE128F14A9E000B088D /* LikesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59C6EE028F14A9E000B088D /* LikesView.swift */; };
+		F59C6EE328F14AB4000B088D /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59C6EE228F14AB4000B088D /* MessagesView.swift */; };
+		F59C6EE528F14AF4000B088D /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59C6EE428F14AF4000B088D /* TabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		F59C6ECB28F131AF000B088D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F59C6ECD28F131B1000B088D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F59C6ED028F131B1000B088D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F59C6ED728F13C3F000B088D /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		F59C6ED928F1404E000B088D /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		F59C6EDC28F14A51000B088D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F59C6EDE28F14A8B000B088D /* MatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchView.swift; sourceTree = "<group>"; };
+		F59C6EE028F14A9E000B088D /* LikesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesView.swift; sourceTree = "<group>"; };
+		F59C6EE228F14AB4000B088D /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		F59C6EE428F14AF4000B088D /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +66,12 @@
 			isa = PBXGroup;
 			children = (
 				F59C6EC928F131AF000B088D /* nottinderApp.swift */,
-				F59C6ECB28F131AF000B088D /* ContentView.swift */,
+				F59C6EDB28F1494B000B088D /* Parent Views */,
+				F59C6EDC28F14A51000B088D /* ProfileView.swift */,
+				F59C6EDE28F14A8B000B088D /* MatchView.swift */,
+				F59C6EE028F14A9E000B088D /* LikesView.swift */,
+				F59C6EE228F14AB4000B088D /* MessagesView.swift */,
+				F59C6EE428F14AF4000B088D /* TabView.swift */,
 				F59C6ECD28F131B1000B088D /* Assets.xcassets */,
 				F59C6ECF28F131B1000B088D /* Preview Content */,
 			);
@@ -65,6 +84,16 @@
 				F59C6ED028F131B1000B088D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F59C6EDB28F1494B000B088D /* Parent Views */ = {
+			isa = PBXGroup;
+			children = (
+				F59C6ECB28F131AF000B088D /* ContentView.swift */,
+				F59C6ED728F13C3F000B088D /* SignInView.swift */,
+				F59C6ED928F1404E000B088D /* CreateAccountView.swift */,
+			);
+			path = "Parent Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +166,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F59C6EE328F14AB4000B088D /* MessagesView.swift in Sources */,
+				F59C6ED828F13C3F000B088D /* SignInView.swift in Sources */,
 				F59C6ECC28F131AF000B088D /* ContentView.swift in Sources */,
+				F59C6EE128F14A9E000B088D /* LikesView.swift in Sources */,
+				F59C6EDD28F14A51000B088D /* ProfileView.swift in Sources */,
+				F59C6EDA28F1404E000B088D /* CreateAccountView.swift in Sources */,
+				F59C6EDF28F14A8B000B088D /* MatchView.swift in Sources */,
+				F59C6EE528F14AF4000B088D /* TabView.swift in Sources */,
 				F59C6ECA28F131AF000B088D /* nottinderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
