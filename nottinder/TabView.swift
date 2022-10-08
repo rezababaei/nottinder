@@ -71,7 +71,11 @@ struct TabView: View {
             }
             Spacer()
         }
-        
+        .navigationBarTitle("Hidden title")
+        .navigationBarHidden(self.isNavigationBarHidden)
+        .onAppear{
+            self.isNavigationBarHidden = true
+        }
         
         
     }

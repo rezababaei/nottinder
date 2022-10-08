@@ -28,29 +28,33 @@ struct SignInView: View {
                         .offset(x:-5,y: 10)
                 }
                 Spacer()
-                        .frame(height:50)
-                    
+                    .frame(height:50)
+                
                 Text("By Tapping create an account and sign in you agree to our terms. learn how we use your Data in our privacy policy and cookies policy")
                     .lineLimit(3)
                     .multilineTextAlignment(.center)
                     .foregroundColor(.white)
                 
                 Spacer()
-                        .frame(height:50)
-                
-                Image("wapple")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width:350,height:60)
-                
-                Image("wfb")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width:350,height:60)
-                Image("wphone")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width:350,height:60)
+                    .frame(height:50)
+                NavigationLink(destination:TabView()){
+                    Image("wapple")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width:350,height:60)
+                }
+                NavigationLink(destination:TabView()){
+                    Image("wfb")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width:350,height:60)
+                }
+                NavigationLink(destination:TabView()){
+                    Image("wphone")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width:350,height:60)
+                }
                 
                 Text("Trouble Signing in?")
                     .font(.system(size: 20))
